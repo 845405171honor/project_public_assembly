@@ -2,7 +2,7 @@
    <div class="slotClass">
       <div>
           111
-          <slot name="aaClass" v-for="(item, index) in table" :aa="item"></slot>
+          <slot name="aaClass" v-for="(item) in table" :aa="item"></slot>
           333
       </div>
    </div>
@@ -34,5 +34,5 @@ export default {
 }
 </script>
 
-<style>
+<style lang='stylus' rel='stylesheet/stylus'>
 </style>

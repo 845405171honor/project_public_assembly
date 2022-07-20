@@ -5,7 +5,7 @@ import App from './App'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
-// 引入字体图标  涉及table中的展开和折叠图标
+// // 引入字体图标  涉及table中的展开和折叠图标
 import './iconfont/iconfont.css'
 
 Vue.config.productionTip = false

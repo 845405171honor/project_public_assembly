@@ -61,11 +61,64 @@
                           </template>
                     </el-table-column>
                 </el-table>
+                <div class="boxSource">
+                  <div class="source">
+                    <div>
+                      <div class="el-select">
+                        <div class="el-input el-input--suffix">
+                          <input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+                          <span class="el-input__suffix">
+                            <span class="el-input__suffix-inner">
+                              <i class="el-select__caret el-input__icon el-icon-arrow-up"></i>
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sourceShow">
+                      显示和隐藏
+                    </div>
+                  </div>
+                  <div class="source">
+                    <div>
+                      <div class="el-select">
+                        <div class="el-input el-input--suffix">
+                          <input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+                          <span class="el-input__suffix">
+                            <span class="el-input__suffix-inner">
+                              <i class="el-select__caret el-input__icon el-icon-arrow-up"></i>
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sourceShow">
+                      显示和隐藏
+                    </div>
+                  </div>
+                  <div class="source">
+                    <div>
+                      <div class="el-select">
+                        <div class="el-input el-input--suffix">
+                          <input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+                          <span class="el-input__suffix">
+                            <span class="el-input__suffix-inner">
+                              <i class="el-select__caret el-input__icon el-icon-arrow-up"></i>
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sourceShow">
+                      显示和隐藏
+                    </div>
+                  </div>
+                </div>
                
                <!-- vue2 插槽 -->
-               <AA :table="tableListData">
+               <!-- <AA :table="tableListData">
                    <div slot="aaClass" slot-scope="ss">{{ss['aa']['Id']}}</div>
-               </AA>
+               </AA> -->
   </div>
 </template>
 
@@ -205,4 +258,17 @@ export default {
           border-right: 1px solid #dde2ef
       .el-table--striped .el-table__body tr.el-table__row--striped td
           background-color #f7f9fa
+</style>
+<style scoped>
+.boxSource{
+  display: flex;
+}
+.boxSource .source{
+  margin-left: 20px;
+}
+.boxSource .source .sourceShow{
+  width: 100%;
+  height: 100px;
+  background: gray;
+}
 </style>
